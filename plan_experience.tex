@@ -1,0 +1,403 @@
+% ===========================================================================
+% Plan d'Experience : Etude Systematique des Zeros des Fonctions Zeta Tordues
+% Version 1.2 - Correction caracteres Unicode dans verbatim - Mai 2026
+% ===========================================================================
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\geometry{margin=2.5cm, headheight=14.5pt}
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, citecolor=blue!60!black, urlcolor=blue!60!black}
+
+% En-tetes et pieds de page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Plan d'Experience --- Zeros de $\zeta_\varphi(s)$}
+\fancyhead[R]{\small Version 1.2 --- Mai 2026}
+\fancyfoot[C]{\small \thepage}
+
+% Titres de section
+\titleformat{\section}{\large\bfseries\scshape}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\title{\textbf{Plan d'Experience :}\\[0.5em] Etude Systematique des Zeros des Fonctions Zeta Tordues}
+\author{Jocelyn Nembe \\[0.5em]
+	\small National Institute of Management Sciences \\
+	\small P.O.\ Box 190, Libreville, Gabon \\
+	\small \texttt{jnembe@roots-insights.org}}
+\date{Mai 2026}
+
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\begin{abstract}
+		\noindent Ce document presente un plan d'experience structure pour l'etude numerique et analytique des zeros non triviaux des fonctions zeta tordues $\zeta_\varphi(s)$ associees a 60 arithmetiques deformees. L'objectif principal est de caracteriser la distribution des zeros en fonction du defaut cohomologique $[\delta_\varphi]$, et d'evaluer la stabilite de l'Hypothese de Riemann sous deformations arithmetiques controlees. Le protocole combine calcul haute precision, analyse statistique multivariee et validation croisee, avec un calendrier de 24 semaines et des livrables conformes aux standards FAIR.
+	\end{abstract}
+	
+	\tableofcontents
+	\newpage
+	
+	\section{Objectifs Scientifiques}
+	\label{sec:objectifs}
+	
+	\subsection{Objectif principal}
+	Caracteriser la distribution des zeros non triviaux des fonctions zeta tordues $\zeta_\varphi(s)$ sur l'ensemble des 60 arithmetiques etudiees, et etablir des correlations quantitatives entre :
+	\begin{itemize}
+		\item la courbure cohomologique $[\delta_\varphi] \in H^2_{\varphi,\mathrm{reg}}$,
+		\item le defaut de distribution des premiers $\Delta_\varphi(X)$,
+		\item la position, la densite et la regularite des zeros de $\zeta_\varphi(s)$.
+	\end{itemize}
+	
+	\subsection{Hypotheses de travail}
+	\begin{table}[ht]
+		\centering
+		\caption{Hypotheses testables et methodes de validation}
+		\label{tab:hypotheses}
+		\begin{tabularx}{\textwidth}{lXl}
+			\toprule
+			\textbf{Hypothese} & \textbf{Formulation mathematique} & \textbf{Methode de test} \\
+			\midrule
+			\textbf{H$_1$ : Stabilite locale} & Si $\Delta_\varphi(X) < \varepsilon$, alors les zeros de $\zeta_\varphi(s)$ restent dans un voisinage controle de $\Re(s)=1/2$ & Regression non lineaire + intervalles de confiance \\
+			\textbf{H$_2$ : Deformation monotone} & La distance moyenne des zeros a la ligne critique croit avec $\|[\delta_\varphi]\|$ & Correlation de Spearman + test de permutation \\
+			\textbf{H$_3$ : Universalite hierarchique} & Les arithmetiques de la hierarchie exponentielle ($\oplus_n$) exhibent une distribution de zeros invariante par changement de base & Test de Kolmogorov-Smirnov entre familles \\
+			\textbf{H$_4$ : Transition de phase} & Il existe un seuil $\alpha_c$ tel que pour $\alpha > \alpha_c$, les zeros migrent systematiquement vers $\Re(s) < 1/2$ & Detection de rupture structurelle (CUSUM) \\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+	
+	\section{Population d'Etude : Les 60 Arithmetiques}
+	\label{sec:population}
+	
+	\subsection{Stratification de l'echantillon}
+	L'echantillon est structure en quatre strates complementaires :
+	\begin{itemize}
+		\item \textbf{Strate A (Hierarchie, $n=15$)} : Arithmetiques iterees $\oplus_n$ pour les bases $\{e, 2, 10\}$ et niveaux $n \in \{-2,-1,0,1,2\}$. Defaut nul par construction.
+		\item \textbf{Strate B (Twisting coherent, $n=15$)} : Deformations via bijections $g$ avec operations $\oplus_g, \otimes_g$. Defaut nul par construction.
+		\item \textbf{Strate C (Exponentiels, $n=15$)} : Transferts $\varphi_\alpha(n)=\alpha^n$ pour $\alpha \in \{0.3, 0.5, \dots, 5.0\}$. Defaut non nul, $H^2_\alpha \cong \mathbb{R}$.
+		\item \textbf{Strate D (Arbitraires, $n=30$)} : Fonctions generiques (polynomes, exponentielles mixtes, rationnelles) et fonctions affines $\varphi(x)=cx+d$.
+	\end{itemize}
+	
+	\subsection{Criteres d'inclusion et d'exclusion}
+	\begin{table}[ht]
+		\centering
+		\caption{Criteres de selection des arithmetiques pour l'etude des zeros}
+		\label{tab:criteria}
+		\begin{tabular}{p{4cm}p{5cm}p{5cm}}
+			\toprule
+			\textbf{Critere} & \textbf{Inclusion} & \textbf{Exclusion} \\
+			\midrule
+			\textbf{Domaine de definition} & $\varphi$ definie sur $\mathbb{Z}^*$ ou $\mathbb{R}_{>0}$ & Singularites non controlables sur le domaine de test \\
+			\textbf{Calculabilite du defaut} & $\delta_\varphi(a,b)$ calculable en precision arbitraire pour $(a,b)\in[2,10]^2$ & Approximations numeriques instables \\
+			\textbf{Convergence de $\zeta_\varphi$} & Serie de Dirichlet convergente pour $\Re(s) > \sigma_c$ avec $\sigma_c < 2$ & Divergence pathologique ou convergence trop lente \\
+			\textbf{Inversibilite} & Section $\varphi^{-1}$ disponible ou construction coherente de $\otimes_\varphi$ & Impossibilite de definir la multiplication tordue \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\section{Protocole Experimental}
+	\label{sec:protocole}
+	
+	\subsection{Phase 1 : Preparation et calibration (Semaines 1--4)}
+	
+	\subsubsection{Architecture logicielle}
+	\begin{verbatim}
+		arithmetics/
+		|-- core/
+		|   |-- transfer.py          # Classe ArithmeticTransfer(phi, domain)
+		|   |-- defect.py            # Calcul de delta_phi(a,b) avec precision arbitraire
+		|   `-- cohomology.py        # Projection sur le secteur regulier
+		|-- zeta/
+		|   |-- dirichlet.py         # Evaluation de zeta_phi(s) par sommation + acceleration
+		|   |-- euler_product.py     # Produit d'Euler tordu (si factorisation unique)
+		|   `-- zeros.py             # Recherche de zeros par Newton-Raphson complexe
+		|-- analytics/
+		|   |-- chebyshev.py         # Calcul de psi_phi(x) et formule explicite
+		|   |-- distribution.py      # Estimation de Delta_phi(X)
+		|   `-- visualization.py     # Heatmaps, trajectoires de zeros
+		`-- experiments/
+		|-- config.yaml          # Parametres globaux
+		|-- runner.py            # Orchestration des calculs parallelises
+		`-- validator.py         # Tests de coherence et reproductibilite
+	\end{verbatim}
+	\textit{Note : Tous les symboles mathematiques dans les blocs de code ont ete remplaces par leur notation ASCII (phi, delta, alpha, etc.) pour garantir une compilation sans erreur.}
+	
+	\subsubsection{Calibration de la precision numerique}
+	\begin{table}[ht]
+		\centering
+		\caption{Precisions cibles et methodes de validation}
+		\label{tab:precision}
+		\begin{tabular}{lcc}
+			\toprule
+			\textbf{Quantite} & \textbf{Precision cible} & \textbf{Methode de validation} \\
+			\midrule
+			$\delta_\varphi(a,b)$ & $10^{-50}$ (\texttt{mpmath}) & Comparaison avec calcul symbolique (\texttt{sympy}) \\
+			$\zeta_\varphi(s)$ & $10^{-30}$ sur $\Re(s)\in[-1,2]$ & Verification d'equations fonctionnelles approchees \\
+			Zeros detectes & $10^{-20}$ sur parties reelle et imaginaire & Raffinement iteratif + estimation d'erreur a posteriori \\
+			$\Delta_\varphi(X)$ & Exact pour $X\leq 10^6$, erreur relative $<10^{-6}$ au-dela & Comparaison avec calcul exact sur sous-ensembles \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Phase 2 : Collecte des donnees (Semaines 5--16)}
+	
+	\subsubsection{Grille de parametres pour chaque arithmetique}
+	\begin{itemize}
+		\item \textbf{Evaluation de $\zeta_\varphi(s)$} :
+		\begin{itemize}
+			\item Partie reelle : $\Re(s) \in [-1.0, 2.0]$ avec pas de $0.01$ (301 points)
+			\item Partie imaginaire : $\Im(s) \in [0.0, 100.0]$ avec pas de $0.1$ (1001 points)
+			\item Troncature de la serie : $N_{\max} = 10^7$ termes, avec arret adaptatif si convergence detectee
+		\end{itemize}
+		\item \textbf{Recherche de zeros} :
+		\begin{itemize}
+			\item Regions initiales : voisinage de la ligne critique $[0.4,0.6]\times[0,50]$ et exploration large $[-0.5,1.5]\times[50,100]$
+			\item Methode : Newton-Raphson complexe avec derivee analytique de $\zeta_\varphi$
+			\item Criteres d'arret : $100$ iterations maximum, tolerance $10^{-20}$
+		\end{itemize}
+		\item \textbf{Analyse de Chebyshev} :
+		\begin{itemize}
+			\item Valeurs de $x$ : echelle logarithmique de $10$ a $10^6$ (50 points)
+			\item Estimation du reste : grille de candidats $\sigma_0 \in \{-1.0, -0.7, \dots, 0.0\}$
+		\end{itemize}
+		\item \textbf{Metriques de defaut} :
+		\begin{itemize}
+			\item Paires de test : 45 paires $(a,b)$ avec $2\leq a,b\leq 10$
+			\item Projection cohomologique : norme dans le secteur regulier $H^2_{\mathrm{reg}}$
+		\end{itemize}
+	\end{itemize}
+	
+	\subsubsection{Schema de base de donnees}
+	\begin{verbatim}
+		-- Table : metadonnees des arithmetiques
+		CREATE TABLE arithmetic_metadata (
+		id INTEGER PRIMARY KEY,
+		name TEXT UNIQUE,
+		category TEXT,          -- 'Hierarchy', 'CoherentTwist', 'Exponential', 'Arbitrary'
+		generator_expr TEXT,    -- expression symbolique de phi
+		defect_expected BOOLEAN,
+		domain TEXT
+		);
+		
+		-- Table : detections de zeros
+		CREATE TABLE zero_detections (
+		id INTEGER PRIMARY KEY,
+		arithmetic_id INTEGER REFERENCES arithmetic_metadata(id),
+		zero_re REAL,           -- partie reelle du zero
+		zero_im REAL,           -- partie imaginaire
+		multiplicity INTEGER DEFAULT 1,
+		detection_method TEXT,  -- 'newton', 'argument_principle', 'grid_search'
+		error_estimate REAL,
+		timestamp DATETIME
+		);
+		
+		-- Table : metriques de defaut
+		CREATE TABLE defect_metrics (
+		arithmetic_id INTEGER REFERENCES arithmetic_metadata(id),
+		max_defect REAL,
+		regular_norm REAL,      -- ||[delta_phi]|| dans H2_reg
+		delta_distribution REAL,-- Delta_phi(X) pour X=10^6
+		sigma_0_estimate REAL,  -- abscisse de region sans zeros estimee
+		computation_time_sec REAL
+		);
+		
+		-- Table : resultats de Chebyshev
+		CREATE TABLE chebyshev_results (
+		arithmetic_id INTEGER REFERENCES arithmetic_metadata(id),
+		x_value REAL,
+		psi_phi_x REAL,
+		explicit_formula_value REAL,
+		remainder_observed REAL,
+		remainder_predicted REAL
+		);
+	\end{verbatim}
+	
+	\subsection{Phase 3 : Analyse statistique (Semaines 17--22)}
+	
+	\subsubsection{Analyses descriptives par strate}
+	\begin{verbatim}
+		# Pseudo-code d'analyse (Python/pandas)
+		for category in ['Hierarchy', 'CoherentTwist', 'Exponential', 'Arbitrary']:
+		subset = data[data.category == category]
+		
+		# Distribution des parties reelles des zeros
+		plot_histogram(subset.zero_re, bins=50, 
+		title=f"Distribution de Re(rho) --- {category}")
+		
+		# Correlation defaut <-> position des zeros
+		if category == 'Exponential':
+		spearman_corr = spearmanr(subset.regular_norm, 
+		subset.zero_re_distance_to_0_5)
+		print(f"{category}: rho = {spearman_corr.statistic:.3f}, p = {spearman_corr.pvalue:.2e}")
+		
+		# Test d'universalite hierarchique (H3)
+		if category == 'Hierarchy':
+		ks_stat, ks_p = kstest(subset.zero_re, 'norm', args=(0.5, 0.1))
+		print(f"Universalite hierarchique: KS = {ks_stat:.3f}, p = {ks_p:.3f}")
+	\end{verbatim}
+	
+	\subsubsection{Modelisation predictive}
+	\begin{verbatim}
+		# Modele de regression pour tester H1 et H2
+		from sklearn.ensemble import RandomForestRegressor
+		from sklearn.model_selection import cross_val_score
+		
+		# Variables explicatives
+		X = data[['regular_norm', 'delta_distribution', 'max_defect', 'category_encoded']]
+		# Variable cible : distance moyenne des zeros a Re(s)=0.5
+		y = data['mean_zero_distance_to_critical_line']
+		
+		# Entrainement et validation croisee
+		model = RandomForestRegressor(n_estimators=200, random_state=42)
+		scores = cross_val_score(model, X, y, cv=5, scoring='neg_mean_absolute_error')
+		print(f"MAE moyen : {-scores.mean():.4f} +/- {scores.std():.4f}")
+	\end{verbatim}
+	
+	\subsection{Phase 4 : Validation et reproductibilite (Semaines 23--24)}
+	\begin{table}[ht]
+		\centering
+		\caption{Tests de validation et criteres de succes}
+		\label{tab:validation}
+		\begin{tabular}{p{4cm}p{5cm}p{5cm}}
+			\toprule
+			\textbf{Type de test} & \textbf{Methode} & \textbf{Critere de succes} \\
+			\midrule
+			\textbf{Reproductibilite numerique} & Relancer 10\% des calculs avec graines aleatoires differentes & Ecart relatif $< 10^{-15}$ sur les zeros detectes \\
+			\textbf{Robustesse a la precision} & Comparer resultats en precision 50, 100, 200 decimales & Convergence monotone des estimations \\
+			\textbf{Coherence analytique} & Verifier que $\zeta_\varphi(s)$ satisfait approximativement l'equation fonctionnelle attendue & Residu relatif $< 10^{-8}$ sur grille de test \\
+			\textbf{Validation externe} & Comparer avec resultats publies pour $\varphi(x)=x$ (cas classique) & Accord a $10^{-12}$ pres sur les 100 premiers zeros \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\subsubsection{Documentation et archivage FAIR}
+	\begin{verbatim}
+		results_archive/
+		|-- raw_data/
+		|   |-- zeros_*.csv.gz          # detections brutes compressees
+		|   |-- metrics_*.parquet       # metriques agregees (format columnaire)
+		|   `-- logs/                   # journaux d'execution avec horodatage
+		|-- processed/
+		|   |-- aggregated_statistics.h5# tableaux croises pour analyse
+		|   |-- model_artifacts/        # modeles entraines + metadonnees
+		|   `-- figures/                # visualisations vectorielles (PDF/SVG)
+		|-- code_snapshot/
+		|   |-- commit_hash.txt         # reference Git exacte
+		|   |-- environment.yml         # dependances conda/pip figees
+		|   `-- config_final.yaml       # parametres utilises pour la publication
+		`-- reproducibility/
+		|-- replay_script.py        # script pour rejouer l'analyse complete
+		|-- validation_report.md    # resultats des tests de validation
+		`-- doi_manifest.json       # metadonnees pour archivage FAIR
+	\end{verbatim}
+	
+	\section{Ressources et Calendrier}
+	\label{sec:ressources}
+	
+	\subsection{Infrastructure de calcul}
+	\begin{table}[ht]
+		\centering
+		\caption{Specifications techniques et justification}
+		\label{tab:infrastructure}
+		\begin{tabular}{p{3cm}p{5cm}p{6cm}}
+			\toprule
+			\textbf{Ressource} & \textbf{Specification} & \textbf{Justification} \\
+			\midrule
+			\textbf{CPU} & 64 coeurs (2$\times$ AMD EPYC 7763) & Parallelisation par arithmetique et par region de recherche de zeros \\
+			\textbf{RAM} & 512 Go DDR4 & Stockage en memoire des grilles de $\zeta_\varphi(s)$ et des matrices de correlation \\
+			\textbf{Stockage} & 10 To NVMe + 50 To HDD & Donnees brutes compressees + archives a long terme \\
+			\textbf{Logiciel} & Python 3.11 + mpmath 1.3 + numpy/scipy + scikit-learn & Precision arbitraire + ecosysteme scientifique mature \\
+			\textbf{Orchestration} & SLURM + Dask Distributed & Gestion de jobs HPC + parallelisme dynamique \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Calendrier detaille (24 semaines)}
+	\begin{table}[ht]
+		\centering
+		\caption{Phases, livrables intermediaires et jalons}
+		\label{tab:timeline}
+		\begin{tabular}{p{2cm}p{4cm}p{4cm}p{3cm}}
+			\toprule
+			\textbf{Semaines} & \textbf{Activites principales} & \textbf{Livrables} & \textbf{Jalon} \\
+			\midrule
+			1--4 & Implementation logicielle, calibration precision & Code source v0.1, tests unitaires & \textcolor{green}{Environnement reproductible} \\
+			5--8 & Calculs hierarchie (15 cas) + twisting coherent (15 cas) & Donnees brutes compressees, logs & \textcolor{green}{30/60 arithmetiques traitees} \\
+			9--12 & Calculs exponentiels (15 $\alpha$) & Grilles de $\zeta_\alpha(s)$, zeros detectes & \textcolor{green}{Famille exponentielle complete} \\
+			13--16 & Calculs arbitraires (30 cas) + aggregation & Base de donnees finale, metriques & \textcolor{green}{Jeu de donnees complet} \\
+			17--19 & Statistiques descriptives + visualisations & Rapports intermediaires, figures & \textcolor{green}{Analyses preliminaires} \\
+			20--22 & Modelisation predictive + detection de transitions & Modeles entraines, seuils estimes & \textcolor{green}{Resultats statistiques valides} \\
+			23--24 & Validation croisee + redaction rapport final & Archive FAIR, manuscrit soumis & \textcolor{green}{Livraison complete} \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\section{Livrables Attendus}
+	\label{sec:livrables}
+	
+	\subsection{Scientifiques}
+	\begin{enumerate}
+		\item \textbf{Article principal} : \textit{« Zero distributions of twisted zeta functions: a computational study across 60 arithmetic deformations »} (cible : \textit{Journal of Number Theory} ou \textit{Mathematics of Computation})
+		\item \textbf{Supplement technique} : Documentation complete du code, jeux de donnees anonymises, scripts de reproduction
+		\item \textbf{Visualisations interactives} : Application Dash/Streamlit pour explorer les resultats en ligne
+	\end{enumerate}
+	
+	\subsection{Methodologiques}
+	\begin{enumerate}
+		\setcounter{enumi}{3}
+		\item \textbf{Bibliotheque open-source} \texttt{twisted-zeta} : Module Python pour le calcul de $\zeta_\varphi(s)$ et la recherche de zeros, avec documentation Sphinx et tests unitaires
+		\item \textbf{Protocole standardise} : Template reproductible pour l'etude numerique de fonctions $L$ deformees
+	\end{enumerate}
+	
+	\section{Gestion des Risques}
+	\label{sec:risques}
+	
+	\begin{table}[ht]
+		\centering
+		\caption{Matrice risques / attenuation}
+		\label{tab:risques}
+		\begin{tabular}{p{4cm}p{2cm}p{2cm}p{6cm}}
+			\toprule
+			\textbf{Risque} & \textbf{Probabilite} & \textbf{Impact} & \textbf{Mesure d'attenuation} \\
+			\midrule
+			\textbf{Divergence numerique} & Moyenne & Eleve & Implementer fallback vers evaluation par produit d'Euler quand la serie de Dirichlet converge lentement \\
+			\textbf{Non-detection de zeros} & Faible & Moyen & Combiner 3 methodes de recherche (Newton, principe de l'argument, grille) et valider par comptage de variations d'argument \\
+			\textbf{Biais de selection} & Faible & Moyen & Inclure des arithmetiques « controle » ($\varphi(x)=x$, $\varphi(x)=cx$) pour calibrer les faux positifs \\
+			\textbf{Surinterpretation statistique} & Moyenne & Eleve & Pre-enregistrer le plan d'analyse (\textit{pre-registration}), utiliser des seuils de significativite corriges (Bonferroni) \\
+			\textbf{Echec de reproductibilite} & Faible & Critique & Archivage FAIR des donnees + conteneur Docker avec environnement fige + DOI pour le code \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\section{Perspectives a Long Terme}
+	\label{sec:perspectives}
+	
+	Ce plan d'experience constitue la \textbf{Phase 1 computationnelle} d'un programme plus vaste. Les resultats alimenteront directement :
+	\begin{enumerate}
+		\item \textbf{Phase 2 analytique} : Derivation rigoureuse de formules explicites tordues avec controle du reste $R(x)$ en fonction de $[\delta_\varphi]$
+		\item \textbf{Phase 3 theorique} : Formulation d'une conjecture de stabilite de RH parametree par la courbure cohomologique
+		\item \textbf{Extensions structurelles} : Generalisation aux transferts $p$-adiques, aux arithmetiques matricielles, et aux cadres $A_\infty$
+	\end{enumerate}
+	
+	La combinaison unique de \textbf{rigueur cohomologique}, \textbf{exploration numerique systematique} et \textbf{ancrage analytique} positionne ce travail comme une contribution originale a l'interface entre theorie des nombres, algebre homologique et calcul scientifique.
+	
+	\section*{Annexe : References Bibliographiques}
+	\begin{thebibliography}{9}
+		\bibitem{Positselski2011} L. Positselski, Two kinds of derived categories, Koszul duality, and comodule-contramodule correspondence, \emph{Mem. Amer. Math. Soc.} 212 (2011), no. 996.
+		\bibitem{Gerstenhaber1964} M. Gerstenhaber, On the deformation of rings and algebras, \emph{Ann. Math.} 79 (1964), 59--103.
+		\bibitem{Eisenbud1980} D. Eisenbud, Homological algebra on a complete intersection, \emph{Trans. Amer. Math. Soc.} 260 (1980), 35--64.
+		\bibitem{KellerLowenNicolas2009} B. Keller, W. Lowen, P. Nicolás, On the (non)vanishing of some derived categories of curved dg algebras, \emph{J. Pure Appl. Algebra} 214 (2010), 1271--1284.
+		\bibitem{Weibel1994} C.A. Weibel, \emph{An Introduction to Homological Algebra}, Cambridge University Press, 1994.
+	\end{thebibliography}
+	
+\end{document}

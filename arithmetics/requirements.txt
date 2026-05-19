@@ -1,0 +1,21 @@
+# Twisted Zeta Functions Experimental Framework
+# Dependencies
+
+# Core computation
+mpmath>=1.3.0          # Arbitrary precision arithmetic
+numpy>=1.24.0          # Numerical arrays
+scipy>=1.10.0          # Optimization, statistics, special functions
+
+# Visualization
+matplotlib>=3.7.0      # Plotting and visualization
+
+# Data handling
+pandas>=2.0.0          # Data manipulation
+pyyaml>=6.0            # Configuration file parsing
+
+# Symbolic verification (optional)
+sympy>=1.12            # Symbolic mathematics
+
+# Testing
+pytest>=7.0.0          # Testing framework
+pytest-cov>=4.0.0      # Test coverage

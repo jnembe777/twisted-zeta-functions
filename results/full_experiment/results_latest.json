@@ -1,0 +1,1950 @@
+[
+  {
+    "name": "Hierarchy_basee_level-2",
+    "category": "Hierarchy",
+    "index": 1,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.1239847252306,
+      "mean": 0.8939862516500751,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 6.572997889167644e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 60.32401442527771
+  },
+  {
+    "name": "Hierarchy_basee_level-1",
+    "category": "Hierarchy",
+    "index": 2,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.2429536254509899,
+      "mean": 0.900238624374585,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 5.50483662347122e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5109259106236077,
+        "imag": 17.32970505932837,
+        "residual": 2.6977612348076536e-23,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 55.221903800964355
+  },
+  {
+    "name": "Hierarchy_basee_level0",
+    "category": "Hierarchy",
+    "index": 3,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 6.400702028650514e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 46.33831214904785
+  },
+  {
+    "name": "Hierarchy_basee_level1",
+    "category": "Hierarchy",
+    "index": 4,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4311231546952432.0,
+      "mean": 173309223872178.3,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 21205466652327.61,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2794446577699333,
+        "imag": 16.998067785045567,
+        "residual": 4.951122621089618e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.431145429611206
+  },
+  {
+    "name": "Hierarchy_basee_level2",
+    "category": "Hierarchy",
+    "index": 5,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": Infinity,
+      "mean": Infinity,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": NaN,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 16.361223697662354
+  },
+  {
+    "name": "Hierarchy_base2_level-2",
+    "category": "Hierarchy",
+    "index": 6,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.841958028186156,
+      "mean": 1.1675637257240858,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 2.116001361611107e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 54.988385915756226
+  },
+  {
+    "name": "Hierarchy_base2_level-1",
+    "category": "Hierarchy",
+    "index": 7,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.512106128692261,
+      "mean": 0.6940337605240834,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 3.470391020906925e-30,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5109259106236077,
+        "imag": 17.32970505932837,
+        "residual": 7.419224431898411e-22,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 54.05963349342346
+  },
+  {
+    "name": "Hierarchy_base2_level0",
+    "category": "Hierarchy",
+    "index": 8,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 6.400702028650514e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 45.162410736083984
+  },
+  {
+    "name": "Hierarchy_base2_level1",
+    "category": "Hierarchy",
+    "index": 9,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 68719472640.0,
+      "mean": 2837473039.36,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000002,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.36142529627710684,
+        "imag": 11.473408900462346,
+        "residual": 2.3005592723747013e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.276041507720947
+  },
+  {
+    "name": "Hierarchy_base2_level2",
+    "category": "Hierarchy",
+    "index": 10,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": Infinity,
+      "mean": Infinity,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": NaN,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.20534355543039115,
+        "imag": 19.655369412801363,
+        "residual": 5.538904580535346e-22,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.732821941375732
+  },
+  {
+    "name": "Hierarchy_base10_level-2",
+    "category": "Hierarchy",
+    "index": 11,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.49220800148377225,
+      "mean": 0.11884179226029498,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 2.3791950854546394e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 55.72618126869202
+  },
+  {
+    "name": "Hierarchy_base10_level-1",
+    "category": "Hierarchy",
+    "index": 12,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.9507831322936592,
+      "mean": 0.8163590387660216,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 7.90403155058143e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5109259106236077,
+        "imag": 17.32970505932837,
+        "residual": 7.611694108255369e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 54.9186487197876
+  },
+  {
+    "name": "Hierarchy_base10_level0",
+    "category": "Hierarchy",
+    "index": 13,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 6.400702028650514e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 50.49701762199402
+  },
+  {
+    "name": "Hierarchy_base10_level1",
+    "category": "Hierarchy",
+    "index": 14,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1e+36,
+      "mean": 4.0000080000480006e+34,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 7.888594005869618e+69,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2179492324050223,
+        "imag": 7.250206803369834,
+        "residual": 3.797620861975571e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.037465810775757
+  },
+  {
+    "name": "Hierarchy_base10_level2",
+    "category": "Hierarchy",
+    "index": 15,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": Infinity,
+      "mean": Infinity,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": NaN,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 1.4685889738065037,
+        "imag": 5.0,
+        "residual": 2.0611531478404513e-15,
+        "converged": false
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 57.027748107910156
+  },
+  {
+    "name": "CoherentTwist_log",
+    "category": "CoherentTwist",
+    "index": 16,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.2429536254509899,
+      "mean": 0.9002386243745851,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 5.504836623471216e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5109259106236077,
+        "imag": 17.32970505932837,
+        "residual": 2.737468712709438e-23,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 60.17181944847107
+  },
+  {
+    "name": "CoherentTwist_exp",
+    "category": "CoherentTwist",
+    "index": 17,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4311231546952440.5,
+      "mean": 173309223872178.66,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 21205466652327.723,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2794446577699333,
+        "imag": 16.998067785045567,
+        "residual": 1.5368740507477366e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 6.451858758926392
+  },
+  {
+    "name": "CoherentTwist_square",
+    "category": "CoherentTwist",
+    "index": 18,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.24977637858865104,
+        "imag": 7.078027065463297,
+        "residual": 1.3459517482572048e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 51.063315629959106
+  },
+  {
+    "name": "CoherentTwist_sqrt",
+    "category": "CoherentTwist",
+    "index": 19,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 7.888609052210118e-31,
+      "mean": 1.735493991486226e-31,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": 1.247031542374244e-60,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4995527571773021,
+        "imag": 14.156054130926593,
+        "residual": 1.3965151403071368e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 50.05778765678406
+  },
+  {
+    "name": "CoherentTwist_cube",
+    "category": "CoherentTwist",
+    "index": 20,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 43.64125037193298
+  },
+  {
+    "name": "CoherentTwist_cbrt",
+    "category": "CoherentTwist",
+    "index": 21,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 3.944304526105059e-31,
+      "mean": 1.8143800820083272e-31,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": 6.235157723519151e-61,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.6177724575912588,
+        "imag": 10.423310369877013,
+        "residual": 1.0557683305226041e-22,
+        "converged": false
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 75.09176898002625
+  },
+  {
+    "name": "CoherentTwist_sinh",
+    "category": "CoherentTwist",
+    "index": 22,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 2155615773516909.5,
+      "mean": 86654611940110.5,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 10602733326163.861,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.26949975822629707,
+        "imag": 8.776879703896782,
+        "residual": 3.3558610754662143e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 6.029536485671997
+  },
+  {
+    "name": "CoherentTwist_arcsinh",
+    "category": "CoherentTwist",
+    "index": 23,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.932107869588891,
+      "mean": 0.8034592561705618,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 2.9170538849470345e-30,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.627040381178618,
+        "imag": 8.151401139514585,
+        "residual": 2.76241813112525e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 54.53285884857178
+  },
+  {
+    "name": "CoherentTwist_tanh",
+    "category": "CoherentTwist",
+    "index": 24,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0699801245922315,
+      "mean": 0.01657922250764373,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 6.557564460515392e-39,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 3,
+    "zeros": [
+      {
+        "real": 0.6369422394078896,
+        "imag": 15.893507941326236,
+        "residual": 9.08582104193162e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 42.882776737213135
+  },
+  {
+    "name": "CoherentTwist_double",
+    "category": "CoherentTwist",
+    "index": 25,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 72.0,
+      "mean": 32.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.580496990463741e-28,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 5.132705835338015e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 50.11461400985718
+  },
+  {
+    "name": "CoherentTwist_half",
+    "category": "CoherentTwist",
+    "index": 26,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 9.0,
+      "mean": 4.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.975621238079676e-29,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 6.3919174729416234e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 48.78974652290344
+  },
+  {
+    "name": "CoherentTwist_shift1",
+    "category": "CoherentTwist",
+    "index": 27,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 12.0,
+      "mean": 8.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.5806516383019242e-29,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4644040548569242,
+        "imag": 8.910985033343128,
+        "residual": 5.662863572835093e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 48.717625856399536
+  },
+  {
+    "name": "CoherentTwist_power1.5",
+    "category": "CoherentTwist",
+    "index": 28,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.262177448353619e-29,
+      "mean": 1.5777218104420236e-30,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": 5.940514002165034e-67,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.279774509001272,
+        "imag": 8.240383890286262,
+        "residual": 1.3390461569138164e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 59.144463777542114
+  },
+  {
+    "name": "CoherentTwist_inverse",
+    "category": "CoherentTwist",
+    "index": 29,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.232595164407831e-32,
+      "mean": 1.355854680848614e-33,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": 1.2154303554651882e-63,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 46.39279866218567
+  },
+  {
+    "name": "CoherentTwist_triple",
+    "category": "CoherentTwist",
+    "index": 30,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 216.0,
+      "mean": 96.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 4.741490971391221e-28,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 1.4302497811843097e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 49.25871276855469
+  },
+  {
+    "name": "Exponential_alpha_0.3",
+    "category": "Exponential",
+    "index": 31,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0017009999999999996,
+      "mean": 0.0002690999467714893,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.4142135623730943,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 47.74552273750305
+  },
+  {
+    "name": "Exponential_alpha_0.5",
+    "category": "Exponential",
+    "index": 32,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.015625,
+      "mean": 0.005123513861908577,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.4142135623730954,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 41.82394742965698
+  },
+  {
+    "name": "Exponential_alpha_0.7",
+    "category": "Exponential",
+    "index": 33,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.07729539299999998,
+      "mean": 0.04340980643288902,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.4142135623730945,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 47.41719365119934
+  },
+  {
+    "name": "Exponential_alpha_1.2",
+    "category": "Exponential",
+    "index": 34,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 699.8857745368349,
+      "mean": 62.88764029829939,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.4142135623829173,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.6303071496492038,
+        "imag": 10.960809341495414,
+        "residual": 4.689587900535867e-21,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 20.806053400039673
+  },
+  {
+    "name": "Exponential_alpha_1.5",
+    "category": "Exponential",
+    "index": 35,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 2184034.66273668,
+      "mean": 105503.8514499419,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 0.9999999999999912,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.6114403453254911,
+        "imag": 8.49927650354202,
+        "residual": 4.281210419277526e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 8.709251880645752
+  },
+  {
+    "name": "Exponential_alpha_1.7",
+    "category": "Exponential",
+    "index": 36,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 197769761.68375158,
+      "mean": 8621332.669066984,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000004,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.33023143188575316,
+        "imag": 13.084985862161906,
+        "residual": 1.6333625093249203e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 7.288202285766602
+  },
+  {
+    "name": "Exponential_alpha_2.0",
+    "category": "Exponential",
+    "index": 37,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 68719472640.0,
+      "mean": 2837473039.36,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000002,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.36142529627710684,
+        "imag": 11.473408900462346,
+        "residual": 2.3005592723747013e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.332040309906006
+  },
+  {
+    "name": "Exponential_alpha_2.5",
+    "category": "Exponential",
+    "index": 38,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 211758236753970.44,
+      "mean": 8540366511900.791,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.28218473070391725,
+        "imag": 17.464845377178122,
+        "residual": 1.1982307058702191e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.106654405593872
+  },
+  {
+    "name": "Exponential_alpha_3.0",
+    "category": "Exponential",
+    "index": 39,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.5009463529646768e+17,
+      "mean": 6020313501204697.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 0.9999999999999999,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.35215786194526055,
+        "imag": 8.728184483056548,
+        "residual": 4.2396678055957606e-23,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.711575269699097
+  },
+  {
+    "name": "Exponential_alpha_3.5",
+    "category": "Exponential",
+    "index": 40,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 3.858776247739182e+19,
+      "mean": 1.545192329635852e+18,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000004,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.33572852548779636,
+        "imag": 7.988173113892901,
+        "residual": 9.881952981425516e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.653717279434204
+  },
+  {
+    "name": "Exponential_alpha_4.0",
+    "category": "Exponential",
+    "index": 41,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4.7223664828696284e+21,
+      "mean": 1.8898696068286654e+20,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000002,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3196424818885649,
+        "imag": 7.437704698670091,
+        "residual": 6.459665678859135e-23,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.622712850570679
+  },
+  {
+    "name": "Exponential_alpha_4.5",
+    "category": "Exponential",
+    "index": 42,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 3.278313604087331e+23,
+      "mean": 1.3116414040894727e+22,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000004,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.25748253243297403,
+        "imag": 10.039551980866872,
+        "residual": 5.399761003031274e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.590487003326416
+  },
+  {
+    "name": "Exponential_alpha_5.0",
+    "category": "Exponential",
+    "index": 43,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.4551915228366852e+25,
+      "mean": 5.82151131637887e+23,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.291525512182745,
+        "imag": 6.6638423454777795,
+        "residual": 1.2570963669905262e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.541557550430298
+  },
+  {
+    "name": "Exponential_alpha_e",
+    "category": "Exponential",
+    "index": 44,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4311231546952432.0,
+      "mean": 173309223872178.3,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000002,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2794446577699333,
+        "imag": 16.998067785045567,
+        "residual": 4.951122621089618e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.1708807945251465
+  },
+  {
+    "name": "Exponential_alpha_pi",
+    "category": "Exponential",
+    "index": 45,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 7.895786870469757e+17,
+      "mean": 3.164902710006183e+16,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 0.9999999999999997,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2856270819379427,
+        "imag": 18.928454765498422,
+        "residual": 9.103393782395425e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.959237575531006
+  },
+  {
+    "name": "Polynomial_x2",
+    "category": "Arbitrary",
+    "index": 46,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.24977637858865104,
+        "imag": 7.078027065463297,
+        "residual": 1.3459517482572048e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 52.45291996002197
+  },
+  {
+    "name": "Polynomial_x3",
+    "category": "Arbitrary",
+    "index": 47,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 48.61196780204773
+  },
+  {
+    "name": "Polynomial_x2_plus_x",
+    "category": "Arbitrary",
+    "index": 48,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 432.0,
+      "mean": 144.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.5803578376970989e-27,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2793108878957609,
+        "imag": 9.363661614514916,
+        "residual": 3.4697394751354415e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 50.46909952163696
+  },
+  {
+    "name": "Polynomial_x2_plus_x_plus_1",
+    "category": "Arbitrary",
+    "index": 49,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 516.0,
+      "mean": 188.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.7542155999051987e-27,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4526101364021385,
+        "imag": 18.377783851361098,
+        "residual": 1.8847329020347054e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 49.57271766662598
+  },
+  {
+    "name": "Polynomial_x2_plus_2x",
+    "category": "Arbitrary",
+    "index": 50,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 936.0,
+      "mean": 320.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 3.318765374440569e-27,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4715527121550221,
+        "imag": 17.168272311500036,
+        "residual": 1.7051926973005614e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 50.68033480644226
+  },
+  {
+    "name": "Polynomial_x3_plus_x2",
+    "category": "Arbitrary",
+    "index": 51,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 15552.0,
+      "mean": 3168.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.580093518289251e-25,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.2901433741493955,
+        "imag": 11.746014229441762,
+        "residual": 4.100055907674025e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 51.325026988983154
+  },
+  {
+    "name": "Polynomial_x3_plus_x",
+    "category": "Arbitrary",
+    "index": 52,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 2592.0,
+      "mean": 704.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.5802326244283833e-26,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3017249996640027,
+        "imag": 12.213384518486638,
+        "residual": 7.716136211398184e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 51.27109384536743
+  },
+  {
+    "name": "Polynomial_x2_plus_1",
+    "category": "Arbitrary",
+    "index": 53,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 72.0,
+      "mean": 36.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.5805124582508141e-28,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4121789908222492,
+        "imag": 17.468304523306983,
+        "residual": 1.1886591439941782e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 50.1009840965271
+  },
+  {
+    "name": "Polynomial_x4",
+    "category": "Arbitrary",
+    "index": 54,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 0,
+    "zeros": [],
+    "n_zeros": 0,
+    "time_sec": 48.53259205818176
+  },
+  {
+    "name": "Polynomial_x3_plus_x2_plus_x",
+    "category": "Arbitrary",
+    "index": 55,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 18576.0,
+      "mean": 4016.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.7539203591090608e-25,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.32081476065119086,
+        "imag": 12.66650794719576,
+        "residual": 1.5699829918187098e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 51.445788621902466
+  },
+  {
+    "name": "MixedExp_2n_plus_n",
+    "category": "Arbitrary",
+    "index": 56,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 68719471872.0,
+      "mean": 2837472842.24,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000002,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5177342149039058,
+        "imag": 6.760195163494916,
+        "residual": 5.853141690089917e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.524768114089966
+  },
+  {
+    "name": "MixedExp_2n_times_3n",
+    "category": "Arbitrary",
+    "index": 57,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.0314424798490537e+28,
+      "mean": 4.1259467936978185e+26,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 5.1537653774311165e+47,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.1969663399239414,
+        "imag": 11.453695284023633,
+        "residual": 4.440681725329847e-21,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.864238977432251
+  },
+  {
+    "name": "MixedExp_2n_plus_0.5n",
+    "category": "Arbitrary",
+    "index": 58,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 68719472637.999756,
+      "mean": 2837473034.7098765,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.0000000000000002,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4150591226997274,
+        "imag": 18.06545983939584,
+        "residual": 9.82966858499508e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.586185455322266
+  },
+  {
+    "name": "MixedExp_1.5n_plus_2n",
+    "category": "Arbitrary",
+    "index": 59,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 2183689.28773668,
+      "mean": 105398.69894994189,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 3.2073047010163716e-13,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5303180293685119,
+        "imag": 12.832929451283617,
+        "residual": 5.0949293686630663e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 9.008245944976807
+  },
+  {
+    "name": "MixedExp_3n_plus_2n",
+    "category": "Arbitrary",
+    "index": 60,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 1.500946352964501e+17,
+      "mean": 6020313501201187.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 4.065604155281019e+17,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.43131822966167693,
+        "imag": 9.572096546626756,
+        "residual": 3.7780630785257165e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.805322647094727
+  },
+  {
+    "name": "MixedExp_2.5n_times_1.5n",
+    "category": "Arbitrary",
+    "index": 61,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4.625148041765874e+20,
+      "mean": 1.8513911351192584e+19,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.9958430201908676e+27,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.32755300585357044,
+        "imag": 7.694420116650069,
+        "residual": 7.286738212303823e-18,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.803026914596558
+  },
+  {
+    "name": "MixedExp_1.2n_plus_1.3n",
+    "category": "Arbitrary",
+    "index": 62,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 13293.980693254605,
+      "mean": 866.4868533200436,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.9567774717252754e-19,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.641028563105348,
+        "imag": 10.39407986556017,
+        "residual": 1.458997845252072e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 15.380776643753052
+  },
+  {
+    "name": "MixedExp_4n_plus_0.25n",
+    "category": "Arbitrary",
+    "index": 63,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4.7223664828696284e+21,
+      "mean": 1.8898696068286654e+20,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.2676481847354632e+30,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3285166159320391,
+        "imag": 7.526774377991003,
+        "residual": 9.218691188632182e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 4.613470554351807
+  },
+  {
+    "name": "MixedExp_2n_plus_2n",
+    "category": "Arbitrary",
+    "index": 64,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 137438937088.0,
+      "mean": 5674944851.2,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 2.0000000000000004,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.36142529627710684,
+        "imag": 11.473408900462346,
+        "residual": 1.098803800369281e-19,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.438398838043213
+  },
+  {
+    "name": "MixedExp_1.5n_times_1.5n",
+    "category": "Arbitrary",
+    "index": 65,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 4770574149033.955,
+      "mean": 193813712872.03595,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 130392.21759152616,
+      "cocycle_verified": false
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4689816367494443,
+        "imag": 5.936822334099776,
+        "residual": 2.834962486386668e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 5.272723197937012
+  },
+  {
+    "name": "Rational_n_over_n_plus_1",
+    "category": "Arbitrary",
+    "index": 66,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.35714285714285715,
+      "mean": 0.31369832877460535,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.2936273624396515e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 3,
+    "zeros": [
+      {
+        "real": 0.6376630865043251,
+        "imag": 7.401574993290716,
+        "residual": 4.58171690531739e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 46.34582543373108
+  },
+  {
+    "name": "Rational_n_over_n_plus_2",
+    "category": "Arbitrary",
+    "index": 67,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.48214285714285715,
+      "mean": 0.4442903229864309,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 2.2603021076865003e-31,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 2,
+    "zeros": [
+      {
+        "real": 0.6414959879342265,
+        "imag": 7.816554476769718,
+        "residual": 1.942114426455778e-21,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 45.729122161865234
+  },
+  {
+    "name": "Rational_n_over_n_plus_0.5",
+    "category": "Arbitrary",
+    "index": 68,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.24888888888888888,
+      "mean": 0.19345324276967207,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 6.955837495737039e-32,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 2,
+    "zeros": [
+      {
+        "real": 0.6262307546009709,
+        "imag": 16.41975030279918,
+        "residual": 1.5908384489813257e-23,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 46.53551411628723
+  },
+  {
+    "name": "Affine_2n",
+    "category": "Arbitrary",
+    "index": 69,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 72.0,
+      "mean": 32.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.580496990463741e-28,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 5.132705835338015e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 47.2489595413208
+  },
+  {
+    "name": "Affine_3n",
+    "category": "Arbitrary",
+    "index": 70,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 216.0,
+      "mean": 96.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 4.741490971391221e-28,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 1.4302497811843097e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 47.74162292480469
+  },
+  {
+    "name": "Affine_0.5n",
+    "category": "Arbitrary",
+    "index": 71,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 9.0,
+      "mean": 4.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.975621238079676e-29,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 6.3919174729416234e-24,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 47.48824906349182
+  },
+  {
+    "name": "Affine_n_plus_1",
+    "category": "Arbitrary",
+    "index": 72,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 12.0,
+      "mean": 8.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.5806516383019242e-29,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4644040548569242,
+        "imag": 8.910985033343128,
+        "residual": 5.662863572835093e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 45.49614596366882
+  },
+  {
+    "name": "Affine_2n_plus_1",
+    "category": "Arbitrary",
+    "index": 73,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 96.0,
+      "mean": 48.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.896627318124126e-28,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.5721891260621936,
+        "imag": 18.34674131354525,
+        "residual": 5.2035373934606276e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 45.119460344314575
+  },
+  {
+    "name": "Affine_n_minus_1",
+    "category": "Arbitrary",
+    "index": 74,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 10.0,
+      "mean": 6.0,
+      "is_zero": false
+    },
+    "cohomology": {
+      "regular_norm": 1.4225710066549813e-29,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.4642298686921331,
+        "imag": 8.911376910894413,
+        "residual": 7.872800849738371e-25,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 44.95745801925659
+  },
+  {
+    "name": "Identity_control",
+    "category": "Arbitrary",
+    "index": 75,
+    "success": true,
+    "error": null,
+    "defect": {
+      "max": 0.0,
+      "mean": 0.0,
+      "is_zero": true
+    },
+    "cohomology": {
+      "regular_norm": null,
+      "cocycle_verified": true
+    },
+    "zero_candidates": 5,
+    "zeros": [
+      {
+        "real": 0.3413361120297274,
+        "imag": 12.331033658611243,
+        "residual": 6.400702028650514e-20,
+        "converged": true
+      }
+    ],
+    "n_zeros": 1,
+    "time_sec": 45.21834897994995
+  }
+]

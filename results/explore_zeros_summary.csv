@@ -1,0 +1,7 @@
+arithmetic,transfer_type,candidates_found,zero_real,zero_imag,residual,converged
+Identity (phi=n),IdentityTransfer,32,0.393822566488017,10.5196063545609,1.99177e-27,true
+Affine_2n,AffineTransfer(2 0),104,0.393822566488017,10.5196063545609,1.57182e-30,true
+Affine_n+1,AffineTransfer(1 1),94,0.462683976291499,8.92116428486433,1.41812e-26,true
+Exponential_1.5,ExponentialTransfer(1.5),85,0.611440345325491,8.49927650354202,2.42275e-31,true
+Exponential_2.0,ExponentialTransfer(2.0),75,0.512635794574222,6.51957015137086,6.09608e-31,true
+CoherentTwist_sqrt,CoherentTwistTransfer(sqrt),38,0.566857546518245,9.44994359103863,2.82733e-30,true
