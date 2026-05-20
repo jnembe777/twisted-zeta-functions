@@ -1,0 +1,135 @@
+{
+  "test1_levels": {
+    "4": [
+      {
+        "real": 0.5,
+        "imag": 14.0,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 0
+      },
+      {
+        "real": 0.5,
+        "imag": 21.0,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 0
+      },
+      {
+        "real": 0.5,
+        "imag": 25.0,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 0
+      }
+    ],
+    "5": [
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      }
+    ],
+    "6": [
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      }
+    ],
+    "7": [
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": Infinity,
+        "converged": false,
+        "iterations": 200
+      }
+    ]
+  },
+  "test2_high_im": [
+    {
+      "real": 0.5,
+      "imag": 30.0,
+      "residual": 0.0,
+      "converged": true,
+      "iterations": 0
+    },
+    {
+      "real": 0.5,
+      "imag": 37.0,
+      "residual": 0.0,
+      "converged": true,
+      "iterations": 0
+    },
+    {
+      "real": 0.5,
+      "imag": 40.0,
+      "residual": 0.0,
+      "converged": true,
+      "iterations": 0
+    },
+    {
+      "real": 0.5,
+      "imag": 43.0,
+      "residual": 0.0,
+      "converged": true,
+      "iterations": 0
+    },
+    {
+      "real": 0.5,
+      "imag": 48.0,
+      "residual": 0.0,
+      "converged": true,
+      "iterations": 0
+    }
+  ],
+  "timestamp": "2026-05-20T14:40:10.331449",
+  "precision": 100
+}

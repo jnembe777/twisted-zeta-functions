@@ -1,0 +1,396 @@
+{
+  "summary": {
+    "0": {
+      "n_zeros": 0
+    },
+    "1": {
+      "n_zeros": 4,
+      "mean_re": 1.3092101251526944,
+      "std_re": 0.11813344472979649,
+      "mean_dist": 0.8092101251526942
+    },
+    "2": {
+      "n_zeros": 2,
+      "mean_re": NaN,
+      "std_re": NaN,
+      "mean_dist": NaN
+    },
+    "3": {
+      "n_zeros": 5,
+      "mean_re": NaN,
+      "std_re": NaN,
+      "mean_dist": NaN
+    }
+  },
+  "zeros": {
+    "0": [],
+    "1": [
+      {
+        "real": 1.348748114965842,
+        "imag": 33.52857796219063,
+        "residual": 4.043761646449323e-19,
+        "converged": true,
+        "iterations": 7,
+        "inner_sum_mag": 4.043761646449323e-19,
+        "n_terms": 500,
+        "trajectory": [
+          {
+            "iter": 3,
+            "real": 1.2849845183290627,
+            "imag": 33.49901039431385,
+            "residual": 0.2161931361151981
+          },
+          {
+            "iter": 4,
+            "real": 1.352953644665141,
+            "imag": 33.53113757836239,
+            "residual": 0.016590477015503757
+          },
+          {
+            "iter": 5,
+            "real": 1.3487605132751725,
+            "imag": 33.528590958775666,
+            "residual": 6.015556957418244e-05
+          },
+          {
+            "iter": 6,
+            "real": 1.348748114853777,
+            "imag": 33.52857796238257,
+            "residual": 7.443377910712843e-10
+          },
+          {
+            "iter": 7,
+            "real": 1.348748114965842,
+            "imag": 33.52857796219063,
+            "residual": 4.043761646449323e-19
+          }
+        ]
+      },
+      {
+        "real": 1.4242744526084927,
+        "imag": 22.004920772786715,
+        "residual": 1.7948413542692552e-22,
+        "converged": true,
+        "iterations": 13,
+        "inner_sum_mag": 1.794841354269255e-22,
+        "n_terms": 500,
+        "trajectory": [
+          {
+            "iter": 9,
+            "real": 1.3685530691056553,
+            "imag": 22.108345253736637,
+            "residual": 0.3774207284679528
+          },
+          {
+            "iter": 10,
+            "real": 1.4232541710724735,
+            "imag": 22.005409041689013,
+            "residual": 0.0044846708687307744
+          },
+          {
+            "iter": 11,
+            "real": 1.4242726948055238,
+            "imag": 22.004922615447185,
+            "residual": 1.0094559160337886e-05
+          },
+          {
+            "iter": 12,
+            "real": 1.4242744526045161,
+            "imag": 22.004920772795828,
+            "residual": 3.9418695271717174e-11
+          },
+          {
+            "iter": 13,
+            "real": 1.4242744526084927,
+            "imag": 22.004920772786715,
+            "residual": 1.7948413542692552e-22
+          }
+        ]
+      },
+      {
+        "real": 1.3524661162670597,
+        "imag": 13.431761903487832,
+        "residual": 3.6976560314868586e-23,
+        "converged": true,
+        "iterations": 18,
+        "inner_sum_mag": 3.6976560314868586e-23,
+        "n_terms": 500,
+        "trajectory": [
+          {
+            "iter": 14,
+            "real": 1.3578346895075577,
+            "imag": 13.444502793974538,
+            "residual": 0.08773176979477931
+          },
+          {
+            "iter": 15,
+            "real": 1.3526948363537485,
+            "imag": 13.432227604519497,
+            "residual": 0.0031717565767941736
+          },
+          {
+            "iter": 16,
+            "real": 1.3524664533168966,
+            "imag": 13.431762561833697,
+            "residual": 4.5148834569131785e-06
+          },
+          {
+            "iter": 17,
+            "real": 1.352466116267742,
+            "imag": 13.431761903489157,
+            "residual": 9.104224515950314e-12
+          },
+          {
+            "iter": 18,
+            "real": 1.3524661162670597,
+            "imag": 13.431761903487832,
+            "residual": 3.6976560314868586e-23
+          }
+        ]
+      },
+      {
+        "real": 1.1113518167693826,
+        "imag": 24.773087471046573,
+        "residual": 8.405609817032474e-26,
+        "converged": true,
+        "iterations": 14,
+        "inner_sum_mag": 8.405609817032474e-26,
+        "n_terms": 500,
+        "trajectory": [
+          {
+            "iter": 10,
+            "real": 1.118318972517232,
+            "imag": 24.775523747307687,
+            "residual": 0.038898261253097095
+          },
+          {
+            "iter": 11,
+            "real": 1.1112193737668938,
+            "imag": 24.77297010910154,
+            "residual": 0.0009575250518471859
+          },
+          {
+            "iter": 12,
+            "real": 1.1113518405561784,
+            "imag": 24.773087365942754,
+            "residual": 5.827380520672723e-07
+          },
+          {
+            "iter": 13,
+            "real": 1.1113518167694487,
+            "imag": 24.773087471046594,
+            "residual": 3.7298276534364426e-13
+          },
+          {
+            "iter": 14,
+            "real": 1.1113518167693826,
+            "imag": 24.773087471046573,
+            "residual": 8.405609817032474e-26
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 1,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 0,
+            "real": 0.5,
+            "imag": 14.0,
+            "residual": Infinity
+          },
+          {
+            "iter": 1,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 1,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 0,
+            "real": 0.5,
+            "imag": 21.0,
+            "residual": Infinity
+          },
+          {
+            "iter": 1,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 2,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 0,
+            "real": 0.5,
+            "imag": 14.0,
+            "residual": 509.08884391960214
+          },
+          {
+            "iter": 1,
+            "real": 0.7359596342810416,
+            "imag": 14.005765723068432,
+            "residual": Infinity
+          },
+          {
+            "iter": 2,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 108,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 104,
+            "real": 0.422284786088007,
+            "imag": 25.117938656590756,
+            "residual": 224.48023834271
+          },
+          {
+            "iter": 105,
+            "real": 0.42473755326923407,
+            "imag": 25.117690176196003,
+            "residual": 76.69920716167434
+          },
+          {
+            "iter": 106,
+            "real": 0.43543354331193823,
+            "imag": 25.11446519143414,
+            "residual": 57.91995583284063
+          },
+          {
+            "iter": 107,
+            "real": 0.4145122179637385,
+            "imag": 25.11903712530828,
+            "residual": Infinity
+          },
+          {
+            "iter": 108,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 1,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 0,
+            "real": 0.5,
+            "imag": 35.0,
+            "residual": Infinity
+          },
+          {
+            "iter": 1,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 2,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 0,
+            "real": 0.3,
+            "imag": 20.0,
+            "residual": 619.0073107098747
+          },
+          {
+            "iter": 1,
+            "real": 0.7998515653334453,
+            "imag": 19.987817527602964,
+            "residual": Infinity
+          },
+          {
+            "iter": 2,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      },
+      {
+        "real": NaN,
+        "imag": NaN,
+        "residual": 0.0,
+        "converged": true,
+        "iterations": 2,
+        "inner_sum_mag": 0.0,
+        "n_terms": 0,
+        "trajectory": [
+          {
+            "iter": 0,
+            "real": 0.7,
+            "imag": 20.0,
+            "residual": 491.3148547528891
+          },
+          {
+            "iter": 1,
+            "real": 1.1998398046687888,
+            "imag": 19.987344184393454,
+            "residual": Infinity
+          },
+          {
+            "iter": 2,
+            "real": NaN,
+            "imag": NaN,
+            "residual": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  "timestamp": "2026-05-20T15:37:35.509252"
+}
