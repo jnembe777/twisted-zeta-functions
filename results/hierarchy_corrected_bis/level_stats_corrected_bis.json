@@ -1,0 +1,175 @@
+{
+  "level_stats": {
+    "-5": {
+      "zero_p": -Infinity,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "-4": {
+      "zero_p": -Infinity,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "-3": {
+      "zero_p": -Infinity,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "-2": {
+      "zero_p": -Infinity,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "-1": {
+      "zero_p": -Infinity,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "0": {
+      "zero_p": 0.0,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "1": {
+      "zero_p": 1.0,
+      "n_zeros": 8,
+      "mean_re": 0.6272955449355732,
+      "mean_dist": 0.12729554493557316
+    },
+    "2": {
+      "zero_p": 2.718281828459045,
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    },
+    "3": {
+      "zero_p": 15.154262241479264,
+      "n_zeros": 8,
+      "mean_re": NaN,
+      "mean_dist": NaN
+    },
+    "4": {
+      "zero_p": 3814279.1047602207,
+      "n_zeros": 8,
+      "mean_re": 0.5,
+      "mean_dist": 0.0
+    },
+    "5": {
+      "zero_p": "inf",
+      "n_zeros": 0,
+      "mean_re": null,
+      "mean_dist": null
+    }
+  },
+  "empirical_law": {
+    "n_valid": 16,
+    "mean_error": 0.06821762401889572,
+    "max_error": 0.1422134741428001,
+    "correlation": 2.685476242488895e-19,
+    "pairs": [
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.5241032300303325,
+        "delta_max": 0.3887559033658796,
+        "error": 0.10319231490524061
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.5241032300303325,
+        "delta_max": 0.3887559033658796,
+        "error": 0.024103230030332545
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.513869917743268,
+        "delta_max": 4.102118724540815,
+        "error": 0.1134256271923052
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.513869917743268,
+        "delta_max": 4.102118724540815,
+        "error": 0.013869917743267957
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.507230464611588,
+        "delta_max": 18.92141185092821,
+        "error": 0.12006508032398511
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.507230464611588,
+        "delta_max": 18.92141185092821,
+        "error": 0.00723046461158805
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.5017614991953843,
+        "delta_max": 66.65766255790244,
+        "error": 0.1255340457401889
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.5017614991953843,
+        "delta_max": 66.65766255790244,
+        "error": 0.001761499195384264
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.49697300543475226,
+        "delta_max": 200.77029472534608,
+        "error": 0.1303225395008209
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.49697300543475226,
+        "delta_max": 200.77029472534608,
+        "error": 0.0030269945652477426
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.4926633067026375,
+        "delta_max": 541.5883699297634,
+        "error": 0.13463223823293563
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.4926633067026375,
+        "delta_max": 541.5883699297634,
+        "error": 0.007336693297362473
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.488722804660964,
+        "delta_max": 1341.898087425911,
+        "error": 0.13857274027460914
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.488722804660964,
+        "delta_max": 1341.898087425911,
+        "error": 0.011277195339035984
+      },
+      {
+        "actual": 0.6272955449355732,
+        "predicted": 0.48508207079277305,
+        "delta_max": 3103.0796321621774,
+        "error": 0.1422134741428001
+      },
+      {
+        "actual": 0.5,
+        "predicted": 0.48508207079277305,
+        "delta_max": 3103.0796321621774,
+        "error": 0.014917929207226954
+      }
+    ]
+  },
+  "timestamp": "20260520_133600"
+}
